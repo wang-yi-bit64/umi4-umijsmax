@@ -1,6 +1,7 @@
 {
   "private": true,
-  "author": "qianyeyixi <1521341740@qq.com>",
+  "name": "transport-umi4",
+  "author": "wangyi",
   "scripts": {
     "dev": "max dev",
     "build": "max build",
@@ -14,9 +15,14 @@
     "@ant-design/icons": "^5.1.4",
     "@ant-design/pro-components": "^2.5.10",
     "@umijs/max": "^4.0.71",
-    "antd": "^5.6.1"
+    "antd": "^5.6.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "ramda": "^0.29.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.195",
+    "@types/ramda": "^0.29.3",
     "@types/react": "^18.2.12",
     "@types/react-dom": "^18.2.5",
     "husky": "^8.0.3",
